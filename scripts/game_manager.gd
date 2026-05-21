@@ -40,7 +40,7 @@ func _process(delta):
 		auto_clicker_timer += delta
 		var interval = 2.0 / auto_clicker_level  # Čím vyšší level, tím rychlejší
 		if auto_clicker_timer >= interval:
-			add_resources(1 + (planet_power_level * 0.5))
+			add_resources(1 + int(planet_power_level * 0.5))
 			auto_clicker_timer = 0.0
 
 func click_planet():

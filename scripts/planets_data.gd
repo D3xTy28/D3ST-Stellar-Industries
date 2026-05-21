@@ -6,7 +6,7 @@ var planets_info: Array = [
 	{
 		"name": "Země",
 		"color": Color.BLUE,
-		"description": "Naš domovský svět",
+		"description": "Náš domovský svět",
 		"base_value": 1
 	},
 	{
@@ -36,7 +36,7 @@ var planets_info: Array = [
 	{
 		"name": "Pluto",
 		"color": Color.WHITE,
-		"description": "Malá ledová těla",
+		"description": "Malá ledová tělesa",
 		"base_value": 3.0
 	}
 ]
